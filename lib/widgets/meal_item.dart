@@ -16,6 +16,22 @@ class MealItem extends StatelessWidget {
     @required this.complexity,
     @required this.affordability,
   });
+  String get complexityText {
+    switch (complexity) {
+      case Complexity.Simple:
+        return 'Simple';
+        break;
+      case Complexity.Challenging:
+        return 'Challenging';
+        break;
+      case Complexity.Hard:
+        return 'Hard';
+        break;
+      default:
+        return 'Unknown';
+    }
+  }
+
   void selectMeal() {}
   @override
   Widget build(BuildContext context) {
@@ -65,6 +81,31 @@ class MealItem extends StatelessWidget {
                   ),
                 ),
               ],
+            ),
+            Padding(
+              padding: const EdgeInsets.all(20),
+              child: Row(
+                children: <Widget>[
+                  Row(
+                    children: <Widget>[
+                      Icon(Icons.schedule),
+                      SizedBox(
+                        width: 6,
+                      ),
+                      Text('$duration min'),
+                    ],
+                  ),
+                  Row(
+                    children: <Widget>[
+                      Icon(Icons.work),
+                      SizedBox(
+                        width: 6,
+                      ),
+                      Text('$duration min'),
+                    ],
+                  ),
+                ],
+              ),
             ),
           ],
         ),
