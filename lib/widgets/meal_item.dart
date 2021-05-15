@@ -44,6 +44,8 @@ class MealItem extends StatelessWidget {
                   ),
                 ),
                 Positioned(
+                  bottom: 20,
+                  right: 0,
                   child: Text(
                     title,
                     style: TextStyle(
