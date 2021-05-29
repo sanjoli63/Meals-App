@@ -1,6 +1,6 @@
-# [Meal-Recipe App]()
+# [Meal-Recipe App](https://sanjoli63.github.io/Meals-Recipe-App/)
 
-For live demo click [here]
+For live demo click [here](https://sanjoli63.github.io/Meals-Recipe-App/)
 
 Meals app with category, filters, Favourites, recipes!
 
