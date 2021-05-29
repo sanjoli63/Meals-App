@@ -1,0 +1,1171 @@
+define(['dart_sdk', 'packages/meals_app/models/category.dart', 'packages/flutter/src/material/colors.dart', 'packages/flutter/src/painting/colors.dart', 'packages/meals_app/models/meal.dart'], (function load__packages__meals_app__dummy_data_dart(dart_sdk, packages__meals_app__models__category$46dart, packages__flutter__src__material__colors$46dart, packages__flutter__src__painting__colors$46dart, packages__meals_app__models__meal$46dart) {
+  'use strict';
+  const core = dart_sdk.core;
+  const ui = dart_sdk.ui;
+  const dart = dart_sdk.dart;
+  const dartx = dart_sdk.dartx;
+  const category = packages__meals_app__models__category$46dart.models__category;
+  const colors = packages__flutter__src__material__colors$46dart.src__material__colors;
+  const colors$ = packages__flutter__src__painting__colors$46dart.src__painting__colors;
+  const meal = packages__meals_app__models__meal$46dart.models__meal;
+  var dummy_data = Object.create(dart.library);
+  dart._checkModuleNullSafetyMode(false);
+  var T = {
+    intL: () => (T.intL = dart.constFn(dart.legacy(core.int)))(),
+    ColorL: () => (T.ColorL = dart.constFn(dart.legacy(ui.Color)))(),
+    CategoryL: () => (T.CategoryL = dart.constFn(dart.legacy(category.Category)))(),
+    StringL: () => (T.StringL = dart.constFn(dart.legacy(core.String)))(),
+    MealL: () => (T.MealL = dart.constFn(dart.legacy(meal.Meal)))()
+  };
+  var T$Eval = Object.assign({
+    _: () => T$Eval
+  }, T);
+  var S = {
+    _: () => S
+  };
+  var S$Eval = Object.assign({
+    _: () => S$Eval
+  }, S);
+  const CT = Object.create({
+    _: () => (C, CT)
+  });
+  dart.defineLazy(CT, {
+    get C4() {
+      return C[4] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4294174197.0
+      });
+    },
+    get C5() {
+      return C[5] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4292984551.0
+      });
+    },
+    get C6() {
+      return C[6] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4291728344.0
+      });
+    },
+    get C7() {
+      return C[7] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4290406600.0
+      });
+    },
+    get C8() {
+      return C[8] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4289415100.0
+      });
+    },
+    get C9() {
+      return C[9] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4288423856.0
+      });
+    },
+    get C10() {
+      return C[10] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4287505578.0
+      });
+    },
+    get C11() {
+      return C[11] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4286259106.0
+      });
+    },
+    get C12() {
+      return C[12] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4285143962.0
+      });
+    },
+    get C13() {
+      return C[13] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4283045004.0
+      });
+    },
+    get C3() {
+      return C[3] = dart.constMap(T.intL(), T.ColorL(), [50, C[4] || CT.C4, 100, C[5] || CT.C5, 200, C[6] || CT.C6, 300, C[7] || CT.C7, 400, C[8] || CT.C8, 500, C[9] || CT.C9, 600, C[10] || CT.C10, 700, C[11] || CT.C11, 800, C[12] || CT.C12, 900, C[13] || CT.C13]);
+    },
+    get C2() {
+      return C[2] = dart.const({
+        __proto__: colors.MaterialColor.prototype,
+        [Color_value]: 4288423856.0,
+        [ColorSwatch__swatch]: C[3] || CT.C3
+      });
+    },
+    get C1() {
+      return C[1] = dart.const({
+        __proto__: category.Category.prototype,
+        [Category_color]: C[2] || CT.C2,
+        [Category_title]: "Italian",
+        [Category_id]: "c1"
+      });
+    },
+    get C17() {
+      return C[17] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4294962158.0
+      });
+    },
+    get C18() {
+      return C[18] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4294954450.0
+      });
+    },
+    get C19() {
+      return C[19] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4293892762.0
+      });
+    },
+    get C20() {
+      return C[20] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4293227379.0
+      });
+    },
+    get C21() {
+      return C[21] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4293874512.0
+      });
+    },
+    get C22() {
+      return C[22] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4294198070.0
+      });
+    },
+    get C23() {
+      return C[23] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4293212469.0
+      });
+    },
+    get C24() {
+      return C[24] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4292030255.0
+      });
+    },
+    get C25() {
+      return C[25] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4291176488.0
+      });
+    },
+    get C26() {
+      return C[26] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4290190364.0
+      });
+    },
+    get C16() {
+      return C[16] = dart.constMap(T.intL(), T.ColorL(), [50, C[17] || CT.C17, 100, C[18] || CT.C18, 200, C[19] || CT.C19, 300, C[20] || CT.C20, 400, C[21] || CT.C21, 500, C[22] || CT.C22, 600, C[23] || CT.C23, 700, C[24] || CT.C24, 800, C[25] || CT.C25, 900, C[26] || CT.C26]);
+    },
+    get C15() {
+      return C[15] = dart.const({
+        __proto__: colors.MaterialColor.prototype,
+        [Color_value]: 4294198070.0,
+        [ColorSwatch__swatch]: C[16] || CT.C16
+      });
+    },
+    get C14() {
+      return C[14] = dart.const({
+        __proto__: category.Category.prototype,
+        [Category_color]: C[15] || CT.C15,
+        [Category_title]: "Quick & Easy",
+        [Category_id]: "c2"
+      });
+    },
+    get C30() {
+      return C[30] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4294964192.0
+      });
+    },
+    get C31() {
+      return C[31] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4294959282.0
+      });
+    },
+    get C32() {
+      return C[32] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4294954112.0
+      });
+    },
+    get C33() {
+      return C[33] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4294948685.0
+      });
+    },
+    get C34() {
+      return C[34] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4294944550.0
+      });
+    },
+    get C35() {
+      return C[35] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4294940672.0
+      });
+    },
+    get C36() {
+      return C[36] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4294675456.0
+      });
+    },
+    get C37() {
+      return C[37] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4294278144.0
+      });
+    },
+    get C38() {
+      return C[38] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4293880832.0
+      });
+    },
+    get C39() {
+      return C[39] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4293284096.0
+      });
+    },
+    get C29() {
+      return C[29] = dart.constMap(T.intL(), T.ColorL(), [50, C[30] || CT.C30, 100, C[31] || CT.C31, 200, C[32] || CT.C32, 300, C[33] || CT.C33, 400, C[34] || CT.C34, 500, C[35] || CT.C35, 600, C[36] || CT.C36, 700, C[37] || CT.C37, 800, C[38] || CT.C38, 900, C[39] || CT.C39]);
+    },
+    get C28() {
+      return C[28] = dart.const({
+        __proto__: colors.MaterialColor.prototype,
+        [Color_value]: 4294940672.0,
+        [ColorSwatch__swatch]: C[29] || CT.C29
+      });
+    },
+    get C27() {
+      return C[27] = dart.const({
+        __proto__: category.Category.prototype,
+        [Category_color]: C[28] || CT.C28,
+        [Category_title]: "Hamburgers",
+        [Category_id]: "c3"
+      });
+    },
+    get C43() {
+      return C[43] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4294965473.0
+      });
+    },
+    get C44() {
+      return C[44] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4294962355.0
+      });
+    },
+    get C45() {
+      return C[45] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4294959234.0
+      });
+    },
+    get C46() {
+      return C[46] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4294956367.0
+      });
+    },
+    get C47() {
+      return C[47] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4294953512.0
+      });
+    },
+    get C48() {
+      return C[48] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4294951175.0
+      });
+    },
+    get C49() {
+      return C[49] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4294947584.0
+      });
+    },
+    get C50() {
+      return C[50] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4294942720.0
+      });
+    },
+    get C51() {
+      return C[51] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4294938368.0
+      });
+    },
+    get C52() {
+      return C[52] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4294930176.0
+      });
+    },
+    get C42() {
+      return C[42] = dart.constMap(T.intL(), T.ColorL(), [50, C[43] || CT.C43, 100, C[44] || CT.C44, 200, C[45] || CT.C45, 300, C[46] || CT.C46, 400, C[47] || CT.C47, 500, C[48] || CT.C48, 600, C[49] || CT.C49, 700, C[50] || CT.C50, 800, C[51] || CT.C51, 900, C[52] || CT.C52]);
+    },
+    get C41() {
+      return C[41] = dart.const({
+        __proto__: colors.MaterialColor.prototype,
+        [Color_value]: 4294951175.0,
+        [ColorSwatch__swatch]: C[42] || CT.C42
+      });
+    },
+    get C40() {
+      return C[40] = dart.const({
+        __proto__: category.Category.prototype,
+        [Category_color]: C[41] || CT.C41,
+        [Category_title]: "German",
+        [Category_id]: "c4"
+      });
+    },
+    get C56() {
+      return C[56] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4293128957.0
+      });
+    },
+    get C57() {
+      return C[57] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4290502395.0
+      });
+    },
+    get C58() {
+      return C[58] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4287679225.0
+      });
+    },
+    get C59() {
+      return C[59] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4284790262.0
+      });
+    },
+    get C60() {
+      return C[60] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4282557941.0
+      });
+    },
+    get C61() {
+      return C[61] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4280391411.0
+      });
+    },
+    get C62() {
+      return C[62] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4280191205.0
+      });
+    },
+    get C63() {
+      return C[63] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4279858898.0
+      });
+    },
+    get C64() {
+      return C[64] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4279592384.0
+      });
+    },
+    get C65() {
+      return C[65] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4279060385.0
+      });
+    },
+    get C55() {
+      return C[55] = dart.constMap(T.intL(), T.ColorL(), [50, C[56] || CT.C56, 100, C[57] || CT.C57, 200, C[58] || CT.C58, 300, C[59] || CT.C59, 400, C[60] || CT.C60, 500, C[61] || CT.C61, 600, C[62] || CT.C62, 700, C[63] || CT.C63, 800, C[64] || CT.C64, 900, C[65] || CT.C65]);
+    },
+    get C54() {
+      return C[54] = dart.const({
+        __proto__: colors.MaterialColor.prototype,
+        [Color_value]: 4280391411.0,
+        [ColorSwatch__swatch]: C[55] || CT.C55
+      });
+    },
+    get C53() {
+      return C[53] = dart.const({
+        __proto__: category.Category.prototype,
+        [Category_color]: C[54] || CT.C54,
+        [Category_title]: "Light & Lovely",
+        [Category_id]: "c5"
+      });
+    },
+    get C69() {
+      return C[69] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4293457385.0
+      });
+    },
+    get C70() {
+      return C[70] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4291356361.0
+      });
+    },
+    get C71() {
+      return C[71] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4289058471.0
+      });
+    },
+    get C72() {
+      return C[72] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4286695300.0
+      });
+    },
+    get C73() {
+      return C[73] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4284922730.0
+      });
+    },
+    get C74() {
+      return C[74] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4283215696.0
+      });
+    },
+    get C75() {
+      return C[75] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4282622023.0
+      });
+    },
+    get C76() {
+      return C[76] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4281896508.0
+      });
+    },
+    get C77() {
+      return C[77] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4281236786.0
+      });
+    },
+    get C78() {
+      return C[78] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4279983648.0
+      });
+    },
+    get C68() {
+      return C[68] = dart.constMap(T.intL(), T.ColorL(), [50, C[69] || CT.C69, 100, C[70] || CT.C70, 200, C[71] || CT.C71, 300, C[72] || CT.C72, 400, C[73] || CT.C73, 500, C[74] || CT.C74, 600, C[75] || CT.C75, 700, C[76] || CT.C76, 800, C[77] || CT.C77, 900, C[78] || CT.C78]);
+    },
+    get C67() {
+      return C[67] = dart.const({
+        __proto__: colors.MaterialColor.prototype,
+        [Color_value]: 4283215696.0,
+        [ColorSwatch__swatch]: C[68] || CT.C68
+      });
+    },
+    get C66() {
+      return C[66] = dart.const({
+        __proto__: category.Category.prototype,
+        [Category_color]: C[67] || CT.C67,
+        [Category_title]: "Exotic",
+        [Category_id]: "c6"
+      });
+    },
+    get C82() {
+      return C[82] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4292998654.0
+      });
+    },
+    get C83() {
+      return C[83] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4289979900.0
+      });
+    },
+    get C84() {
+      return C[84] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4286698746.0
+      });
+    },
+    get C85() {
+      return C[85] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4283417591.0
+      });
+    },
+    get C86() {
+      return C[86] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4280923894.0
+      });
+    },
+    get C87() {
+      return C[87] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4278430196.0
+      });
+    },
+    get C88() {
+      return C[88] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4278426597.0
+      });
+    },
+    get C89() {
+      return C[89] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4278356177.0
+      });
+    },
+    get C90() {
+      return C[90] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4278351805.0
+      });
+    },
+    get C91() {
+      return C[91] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4278278043.0
+      });
+    },
+    get C81() {
+      return C[81] = dart.constMap(T.intL(), T.ColorL(), [50, C[82] || CT.C82, 100, C[83] || CT.C83, 200, C[84] || CT.C84, 300, C[85] || CT.C85, 400, C[86] || CT.C86, 500, C[87] || CT.C87, 600, C[88] || CT.C88, 700, C[89] || CT.C89, 800, C[90] || CT.C90, 900, C[91] || CT.C91]);
+    },
+    get C80() {
+      return C[80] = dart.const({
+        __proto__: colors.MaterialColor.prototype,
+        [Color_value]: 4278430196.0,
+        [ColorSwatch__swatch]: C[81] || CT.C81
+      });
+    },
+    get C79() {
+      return C[79] = dart.const({
+        __proto__: category.Category.prototype,
+        [Category_color]: C[80] || CT.C80,
+        [Category_title]: "Breakfast",
+        [Category_id]: "c7"
+      });
+    },
+    get C95() {
+      return C[95] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4294047977.0
+      });
+    },
+    get C96() {
+      return C[96] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4292668872.0
+      });
+    },
+    get C97() {
+      return C[97] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4291158437.0
+      });
+    },
+    get C98() {
+      return C[98] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4289648001.0
+      });
+    },
+    get C99() {
+      return C[99] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4288466021.0
+      });
+    },
+    get C100() {
+      return C[100] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4287349578.0
+      });
+    },
+    get C101() {
+      return C[101] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4286362434.0
+      });
+    },
+    get C102() {
+      return C[102] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4285046584.0
+      });
+    },
+    get C103() {
+      return C[103] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4283796271.0
+      });
+    },
+    get C104() {
+      return C[104] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4281559326.0
+      });
+    },
+    get C94() {
+      return C[94] = dart.constMap(T.intL(), T.ColorL(), [50, C[95] || CT.C95, 100, C[96] || CT.C96, 200, C[97] || CT.C97, 300, C[98] || CT.C98, 400, C[99] || CT.C99, 500, C[100] || CT.C100, 600, C[101] || CT.C101, 700, C[102] || CT.C102, 800, C[103] || CT.C103, 900, C[104] || CT.C104]);
+    },
+    get C93() {
+      return C[93] = dart.const({
+        __proto__: colors.MaterialColor.prototype,
+        [Color_value]: 4287349578.0,
+        [ColorSwatch__swatch]: C[94] || CT.C94
+      });
+    },
+    get C92() {
+      return C[92] = dart.const({
+        __proto__: category.Category.prototype,
+        [Category_color]: C[93] || CT.C93,
+        [Category_title]: "Asian",
+        [Category_id]: "c8"
+      });
+    },
+    get C108() {
+      return C[108] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4294763756.0
+      });
+    },
+    get C109() {
+      return C[109] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4294491088.0
+      });
+    },
+    get C110() {
+      return C[110] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4294217649.0
+      });
+    },
+    get C111() {
+      return C[111] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4293943954.0
+      });
+    },
+    get C112() {
+      return C[112] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4293673082.0
+      });
+    },
+    get C113() {
+      return C[113] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4293467747.0
+      });
+    },
+    get C114() {
+      return C[114] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4292352864.0
+      });
+    },
+    get C115() {
+      return C[115] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4290910299.0
+      });
+    },
+    get C116() {
+      return C[116] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4289533015.0
+      });
+    },
+    get C117() {
+      return C[117] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4287106639.0
+      });
+    },
+    get C107() {
+      return C[107] = dart.constMap(T.intL(), T.ColorL(), [50, C[108] || CT.C108, 100, C[109] || CT.C109, 200, C[110] || CT.C110, 300, C[111] || CT.C111, 400, C[112] || CT.C112, 500, C[113] || CT.C113, 600, C[114] || CT.C114, 700, C[115] || CT.C115, 800, C[116] || CT.C116, 900, C[117] || CT.C117]);
+    },
+    get C106() {
+      return C[106] = dart.const({
+        __proto__: colors.MaterialColor.prototype,
+        [Color_value]: 4293467747.0,
+        [ColorSwatch__swatch]: C[107] || CT.C107
+      });
+    },
+    get C105() {
+      return C[105] = dart.const({
+        __proto__: category.Category.prototype,
+        [Category_color]: C[106] || CT.C106,
+        [Category_title]: "French",
+        [Category_id]: "c9"
+      });
+    },
+    get C121() {
+      return C[121] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4292932337.0
+      });
+    },
+    get C122() {
+      return C[122] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4289912795.0
+      });
+    },
+    get C123() {
+      return C[123] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4286630852.0
+      });
+    },
+    get C124() {
+      return C[124] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4283283116.0
+      });
+    },
+    get C125() {
+      return C[125] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4280723098.0
+      });
+    },
+    get C126() {
+      return C[126] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4278228616.0
+      });
+    },
+    get C127() {
+      return C[127] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4278225275.0
+      });
+    },
+    get C128() {
+      return C[128] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4278221163.0
+      });
+    },
+    get C129() {
+      return C[129] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4278217052.0
+      });
+    },
+    get C130() {
+      return C[130] = dart.const({
+        __proto__: ui.Color.prototype,
+        [Color_value]: 4278209856.0
+      });
+    },
+    get C120() {
+      return C[120] = dart.constMap(T.intL(), T.ColorL(), [50, C[121] || CT.C121, 100, C[122] || CT.C122, 200, C[123] || CT.C123, 300, C[124] || CT.C124, 400, C[125] || CT.C125, 500, C[126] || CT.C126, 600, C[127] || CT.C127, 700, C[128] || CT.C128, 800, C[129] || CT.C129, 900, C[130] || CT.C130]);
+    },
+    get C119() {
+      return C[119] = dart.const({
+        __proto__: colors.MaterialColor.prototype,
+        [Color_value]: 4278228616.0,
+        [ColorSwatch__swatch]: C[120] || CT.C120
+      });
+    },
+    get C118() {
+      return C[118] = dart.const({
+        __proto__: category.Category.prototype,
+        [Category_color]: C[119] || CT.C119,
+        [Category_title]: "Summer",
+        [Category_id]: "c10"
+      });
+    },
+    get C0() {
+      return C[0] = dart.constList([C[1] || CT.C1, C[14] || CT.C14, C[27] || CT.C27, C[40] || CT.C40, C[53] || CT.C53, C[66] || CT.C66, C[79] || CT.C79, C[92] || CT.C92, C[105] || CT.C105, C[118] || CT.C118], T.CategoryL());
+    },
+    get C133() {
+      return C[133] = dart.const({
+        __proto__: meal.Affordability.prototype,
+        [_name]: "Affordability.Affordable",
+        index: 0
+      });
+    },
+    get C134() {
+      return C[134] = dart.const({
+        __proto__: meal.Complexity.prototype,
+        [_name]: "Complexity.Simple",
+        index: 0
+      });
+    },
+    get C135() {
+      return C[135] = dart.constList(["Cut the tomatoes and the onion into small pieces.", "Boil some water - add salt to it once it boils.", "Put the spaghetti into the boiling water - they should be done in about 10 to 12 minutes.", "In the meantime, heaten up some olive oil and add the cut onion.", "After 2 minutes, add the tomato pieces, salt, pepper and your other spices.", "The sauce will be done once the spaghetti are.", "Feel free to add some cheese on top of the finished dish."], T.StringL());
+    },
+    get C136() {
+      return C[136] = dart.constList(["4 Tomatoes", "1 Tablespoon of Olive Oil", "1 Onion", "250g Spaghetti", "Spices", "Cheese (optional)"], T.StringL());
+    },
+    get C137() {
+      return C[137] = dart.constList(["c1", "c2"], T.StringL());
+    },
+    get C132() {
+      return C[132] = dart.const({
+        __proto__: meal.Meal.prototype,
+        [Meal_isVegetarian]: true,
+        [Meal_isVegan]: true,
+        [Meal_isLactoseFree]: true,
+        [Meal_isGlutenFree]: false,
+        [Meal_affordability]: C[133] || CT.C133,
+        [Meal_complexity]: C[134] || CT.C134,
+        [Meal_duration]: 20,
+        [Meal_steps]: C[135] || CT.C135,
+        [Meal_ingredients]: C[136] || CT.C136,
+        [Meal_imageUrl]: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg/800px-Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg",
+        [Meal_title]: "Spaghetti with Tomato Sauce",
+        [Meal_categories]: C[137] || CT.C137,
+        [Meal_id]: "m1"
+      });
+    },
+    get C139() {
+      return C[139] = dart.constList(["Butter one side of the white bread", "Layer ham, the pineapple and cheese on the white bread", "Bake the toast for round about 10 minutes in the oven at 200°C"], T.StringL());
+    },
+    get C140() {
+      return C[140] = dart.constList(["1 Slice White Bread", "1 Slice Ham", "1 Slice Pineapple", "1-2 Slices of Cheese", "Butter"], T.StringL());
+    },
+    get C141() {
+      return C[141] = dart.constList(["c2"], T.StringL());
+    },
+    get C138() {
+      return C[138] = dart.const({
+        __proto__: meal.Meal.prototype,
+        [Meal_isVegetarian]: false,
+        [Meal_isVegan]: false,
+        [Meal_isLactoseFree]: false,
+        [Meal_isGlutenFree]: false,
+        [Meal_affordability]: C[133] || CT.C133,
+        [Meal_complexity]: C[134] || CT.C134,
+        [Meal_duration]: 10,
+        [Meal_steps]: C[139] || CT.C139,
+        [Meal_ingredients]: C[140] || CT.C140,
+        [Meal_imageUrl]: "https://cdn.pixabay.com/photo/2018/07/11/21/51/toast-3532016_1280.jpg",
+        [Meal_title]: "Toast Hawaii",
+        [Meal_categories]: C[141] || CT.C141,
+        [Meal_id]: "m2"
+      });
+    },
+    get C143() {
+      return C[143] = dart.const({
+        __proto__: meal.Affordability.prototype,
+        [_name]: "Affordability.Pricey",
+        index: 1
+      });
+    },
+    get C144() {
+      return C[144] = dart.constList(["Form 2 patties", "Fry the patties for c. 4 minutes on each side", "Quickly fry the buns for c. 1 minute on each side", "Bruch buns with ketchup", "Serve burger with tomato, cucumber and onion"], T.StringL());
+    },
+    get C145() {
+      return C[145] = dart.constList(["300g Cattle Hack", "1 Tomato", "1 Cucumber", "1 Onion", "Ketchup", "2 Burger Buns"], T.StringL());
+    },
+    get C146() {
+      return C[146] = dart.constList(["c2", "c3"], T.StringL());
+    },
+    get C142() {
+      return C[142] = dart.const({
+        __proto__: meal.Meal.prototype,
+        [Meal_isVegetarian]: false,
+        [Meal_isVegan]: false,
+        [Meal_isLactoseFree]: true,
+        [Meal_isGlutenFree]: false,
+        [Meal_affordability]: C[143] || CT.C143,
+        [Meal_complexity]: C[134] || CT.C134,
+        [Meal_duration]: 45,
+        [Meal_steps]: C[144] || CT.C144,
+        [Meal_ingredients]: C[145] || CT.C145,
+        [Meal_imageUrl]: "https://cdn.pixabay.com/photo/2014/10/23/18/05/burger-500054_1280.jpg",
+        [Meal_title]: "Classic Hamburger",
+        [Meal_categories]: C[146] || CT.C146,
+        [Meal_id]: "m3"
+      });
+    },
+    get C148() {
+      return C[148] = dart.const({
+        __proto__: meal.Affordability.prototype,
+        [_name]: "Affordability.Luxurious",
+        index: 2
+      });
+    },
+    get C149() {
+      return C[149] = dart.const({
+        __proto__: meal.Complexity.prototype,
+        [_name]: "Complexity.Challenging",
+        index: 1
+      });
+    },
+    get C150() {
+      return C[150] = dart.constList(["Tenderize the veal to about 2–4mm, and salt on both sides.", "On a flat plate, stir the eggs briefly with a fork.", "Lightly coat the cutlets in flour then dip into the egg, and finally, coat in breadcrumbs.", "Heat the butter and oil in a large pan (allow the fat to get very hot) and fry the schnitzels until golden brown on both sides.", "Make sure to toss the pan regularly so that the schnitzels are surrounded by oil and the crumbing becomes ‘fluffy’.", "Remove, and drain on kitchen paper. Fry the parsley in the remaining oil and drain.", "Place the schnitzels on awarmed plate and serve garnishedwith parsley and slices of lemon."], T.StringL());
+    },
+    get C151() {
+      return C[151] = dart.constList(["8 Veal Cutlets", "4 Eggs", "200g Bread Crumbs", "100g Flour", "300ml Butter", "100g Vegetable Oil", "Salt", "Lemon Slices"], T.StringL());
+    },
+    get C152() {
+      return C[152] = dart.constList(["c4"], T.StringL());
+    },
+    get C147() {
+      return C[147] = dart.const({
+        __proto__: meal.Meal.prototype,
+        [Meal_isVegetarian]: false,
+        [Meal_isVegan]: false,
+        [Meal_isLactoseFree]: false,
+        [Meal_isGlutenFree]: false,
+        [Meal_affordability]: C[148] || CT.C148,
+        [Meal_complexity]: C[149] || CT.C149,
+        [Meal_duration]: 60,
+        [Meal_steps]: C[150] || CT.C150,
+        [Meal_ingredients]: C[151] || CT.C151,
+        [Meal_imageUrl]: "https://cdn.pixabay.com/photo/2018/03/31/19/29/schnitzel-3279045_1280.jpg",
+        [Meal_title]: "Wiener Schnitzel",
+        [Meal_categories]: C[152] || CT.C152,
+        [Meal_id]: "m4"
+      });
+    },
+    get C154() {
+      return C[154] = dart.constList(["Wash and cut salad and herbs", "Dice the salmon", "Process mustard, vinegar and olive oil into a dessing", "Prepare the salad", "Add salmon cubes and dressing"], T.StringL());
+    },
+    get C155() {
+      return C[155] = dart.constList(["Arugula", "Lamb's Lettuce", "Parsley", "Fennel", "200g Smoked Salmon", "Mustard", "Balsamic Vinegar", "Olive Oil", "Salt and Pepper"], T.StringL());
+    },
+    get C156() {
+      return C[156] = dart.constList(["c2c5", "c10"], T.StringL());
+    },
+    get C153() {
+      return C[153] = dart.const({
+        __proto__: meal.Meal.prototype,
+        [Meal_isVegetarian]: true,
+        [Meal_isVegan]: false,
+        [Meal_isLactoseFree]: true,
+        [Meal_isGlutenFree]: true,
+        [Meal_affordability]: C[148] || CT.C148,
+        [Meal_complexity]: C[134] || CT.C134,
+        [Meal_duration]: 15,
+        [Meal_steps]: C[154] || CT.C154,
+        [Meal_ingredients]: C[155] || CT.C155,
+        [Meal_imageUrl]: "https://cdn.pixabay.com/photo/2016/10/25/13/29/smoked-salmon-salad-1768890_1280.jpg",
+        [Meal_title]: "Salad with Smoked Salmon",
+        [Meal_categories]: C[156] || CT.C156,
+        [Meal_id]: "m5"
+      });
+    },
+    get C158() {
+      return C[158] = dart.const({
+        __proto__: meal.Complexity.prototype,
+        [_name]: "Complexity.Hard",
+        index: 2
+      });
+    },
+    get C159() {
+      return C[159] = dart.constList(["Dissolve gelatine in pot", "Add orange juice and sugar", "Take pot off the stove", "Add 2 tablespoons of yoghurt", "Stir gelatin under remaining yoghurt", "Cool everything down in the refrigerator", "Whip the cream and lift it under die orange mass", "Cool down again for at least 4 hours", "Serve with orange peel"], T.StringL());
+    },
+    get C160() {
+      return C[160] = dart.constList(["4 Sheets of Gelatine", "150ml Orange Juice", "80g Sugar", "300g Yoghurt", "200g Cream", "Orange Peel"], T.StringL());
+    },
+    get C161() {
+      return C[161] = dart.constList(["c6", "c10"], T.StringL());
+    },
+    get C157() {
+      return C[157] = dart.const({
+        __proto__: meal.Meal.prototype,
+        [Meal_isVegetarian]: true,
+        [Meal_isVegan]: false,
+        [Meal_isLactoseFree]: false,
+        [Meal_isGlutenFree]: true,
+        [Meal_affordability]: C[133] || CT.C133,
+        [Meal_complexity]: C[158] || CT.C158,
+        [Meal_duration]: 240,
+        [Meal_steps]: C[159] || CT.C159,
+        [Meal_ingredients]: C[160] || CT.C160,
+        [Meal_imageUrl]: "https://cdn.pixabay.com/photo/2017/05/01/05/18/pastry-2274750_1280.jpg",
+        [Meal_title]: "Delicious Orange Mousse",
+        [Meal_categories]: C[161] || CT.C161,
+        [Meal_id]: "m6"
+      });
+    },
+    get C163() {
+      return C[163] = dart.constList(["In a large bowl, sift together the flour, baking powder, salt and sugar.", "Make a well in the center and pour in the milk, egg and melted butter; mix until smooth.", "Heat a lightly oiled griddle or frying pan over medium high heat.", "Pour or scoop the batter onto the griddle, using approximately 1/4 cup for each pancake. Brown on both sides and serve hot."], T.StringL());
+    },
+    get C164() {
+      return C[164] = dart.constList(["1 1/2 Cups all-purpose Flour", "3 1/2 Teaspoons Baking Powder", "1 Teaspoon Salt", "1 Tablespoon White Sugar", "1 1/4 cups Milk", "1 Egg", "3 Tablespoons Butter, melted"], T.StringL());
+    },
+    get C165() {
+      return C[165] = dart.constList(["c7"], T.StringL());
+    },
+    get C162() {
+      return C[162] = dart.const({
+        __proto__: meal.Meal.prototype,
+        [Meal_isVegetarian]: true,
+        [Meal_isVegan]: false,
+        [Meal_isLactoseFree]: false,
+        [Meal_isGlutenFree]: true,
+        [Meal_affordability]: C[133] || CT.C133,
+        [Meal_complexity]: C[134] || CT.C134,
+        [Meal_duration]: 20,
+        [Meal_steps]: C[163] || CT.C163,
+        [Meal_ingredients]: C[164] || CT.C164,
+        [Meal_imageUrl]: "https://cdn.pixabay.com/photo/2018/07/10/21/23/pancake-3529653_1280.jpg",
+        [Meal_title]: "Pancakes",
+        [Meal_categories]: C[165] || CT.C165,
+        [Meal_id]: "m7"
+      });
+    },
+    get C167() {
+      return C[167] = dart.constList(["Slice and fry the chicken breast", "Process onion, garlic and ginger into paste and sauté everything", "Add spices and stir fry", "Add chicken breast + 250ml of water and cook everything for 10 minutes", "Add coconut milk", "Serve with rice"], T.StringL());
+    },
+    get C168() {
+      return C[168] = dart.constList(["4 Chicken Breasts", "1 Onion", "2 Cloves of Garlic", "1 Piece of Ginger", "4 Tablespoons Almonds", "1 Teaspoon Cayenne Pepper", "500ml Coconut Milk"], T.StringL());
+    },
+    get C169() {
+      return C[169] = dart.constList(["c8"], T.StringL());
+    },
+    get C166() {
+      return C[166] = dart.const({
+        __proto__: meal.Meal.prototype,
+        [Meal_isVegetarian]: false,
+        [Meal_isVegan]: false,
+        [Meal_isLactoseFree]: true,
+        [Meal_isGlutenFree]: true,
+        [Meal_affordability]: C[143] || CT.C143,
+        [Meal_complexity]: C[149] || CT.C149,
+        [Meal_duration]: 35,
+        [Meal_steps]: C[167] || CT.C167,
+        [Meal_ingredients]: C[168] || CT.C168,
+        [Meal_imageUrl]: "https://cdn.pixabay.com/photo/2018/06/18/16/05/indian-food-3482749_1280.jpg",
+        [Meal_title]: "Creamy Indian Chicken Curry",
+        [Meal_categories]: C[169] || CT.C169,
+        [Meal_id]: "m8"
+      });
+    },
+    get C171() {
+      return C[171] = dart.constList(["Preheat oven to 190°C. Line a rimmed baking sheet with parchment paper.", "Brush bottom and sides of 2 ramekins lightly with 1 teaspoon melted butter; cover bottom and sides right up to the rim.", "Add 1 tablespoon white sugar to ramekins. Rotate ramekins until sugar coats all surfaces.", "Place chocolate pieces in a metal mixing bowl.", "Place bowl over a pan of about 3 cups hot water over low heat.", "Melt 1 tablespoon butter in a skillet over medium heat. Sprinkle in flour. Whisk until flour is incorporated into butter and mixture thickens.", "Whisk in cold milk until mixture becomes smooth and thickens. Transfer mixture to bowl with melted chocolate.", "Add salt and cayenne pepper. Mix together thoroughly. Add egg yolk and mix to combine.", "Leave bowl above the hot (not simmering) water to keep chocolate warm while you whip the egg whites.", "Place 2 egg whites in a mixing bowl; add cream of tartar. Whisk until mixture begins to thicken and a drizzle from the whisk stays on the surface about 1 second before disappearing into the mix.", "Add 1/3 of sugar and whisk in. Whisk in a bit more sugar about 15 seconds.", "whisk in the rest of the sugar. Continue whisking until mixture is about as thick as shaving cream and holds soft peaks, 3 to 5 minutes.", "Transfer a little less than half of egg whites to chocolate.", "Mix until egg whites are thoroughly incorporated into the chocolate.", "Add the rest of the egg whites; gently fold into the chocolate with a spatula, lifting from the bottom and folding over.", "Stop mixing after the egg white disappears. Divide mixture between 2 prepared ramekins. Place ramekins on prepared baking sheet.", "Bake in preheated oven until scuffles are puffed and have risen above the top of the rims, 12 to 15 minutes."], T.StringL());
+    },
+    get C172() {
+      return C[172] = dart.constList(["1 Teaspoon melted Butter", "2 Tablespoons white Sugar", "2 Ounces 70% dark Chocolate, broken into pieces", "1 Tablespoon Butter", "1 Tablespoon all-purpose Flour", "4 1/3 tablespoons cold Milk", "1 Pinch Salt", "1 Pinch Cayenne Pepper", "1 Large Egg Yolk", "2 Large Egg Whites", "1 Pinch Cream of Tartar", "1 Tablespoon white Sugar"], T.StringL());
+    },
+    get C173() {
+      return C[173] = dart.constList(["c9"], T.StringL());
+    },
+    get C170() {
+      return C[170] = dart.const({
+        __proto__: meal.Meal.prototype,
+        [Meal_isVegetarian]: true,
+        [Meal_isVegan]: false,
+        [Meal_isLactoseFree]: false,
+        [Meal_isGlutenFree]: true,
+        [Meal_affordability]: C[133] || CT.C133,
+        [Meal_complexity]: C[158] || CT.C158,
+        [Meal_duration]: 45,
+        [Meal_steps]: C[171] || CT.C171,
+        [Meal_ingredients]: C[172] || CT.C172,
+        [Meal_imageUrl]: "https://cdn.pixabay.com/photo/2014/08/07/21/07/souffle-412785_1280.jpg",
+        [Meal_title]: "Chocolate Souffle",
+        [Meal_categories]: C[173] || CT.C173,
+        [Meal_id]: "m9"
+      });
+    },
+    get C175() {
+      return C[175] = dart.constList(["Wash, peel and cut the asparagus", "Cook in salted water", "Salt and pepper the asparagus", "Roast the pine nuts", "Halve the tomatoes", "Mix with asparagus, salad and dressing", "Serve with Baguette"], T.StringL());
+    },
+    get C176() {
+      return C[176] = dart.constList(["White and Green Asparagus", "30g Pine Nuts", "300g Cherry Tomatoes", "Salad", "Salt, Pepper and Olive Oil"], T.StringL());
+    },
+    get C177() {
+      return C[177] = dart.constList(["c2", "c5", "c10"], T.StringL());
+    },
+    get C174() {
+      return C[174] = dart.const({
+        __proto__: meal.Meal.prototype,
+        [Meal_isVegetarian]: true,
+        [Meal_isVegan]: true,
+        [Meal_isLactoseFree]: true,
+        [Meal_isGlutenFree]: true,
+        [Meal_affordability]: C[148] || CT.C148,
+        [Meal_complexity]: C[134] || CT.C134,
+        [Meal_duration]: 30,
+        [Meal_steps]: C[175] || CT.C175,
+        [Meal_ingredients]: C[176] || CT.C176,
+        [Meal_imageUrl]: "https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg",
+        [Meal_title]: "Asparagus Salad with Cherry Tomatoes",
+        [Meal_categories]: C[177] || CT.C177,
+        [Meal_id]: "m10"
+      });
+    },
+    get C131() {
+      return C[131] = dart.constList([C[132] || CT.C132, C[138] || CT.C138, C[142] || CT.C142, C[147] || CT.C147, C[153] || CT.C153, C[157] || CT.C157, C[162] || CT.C162, C[166] || CT.C166, C[170] || CT.C170, C[174] || CT.C174], T.MealL());
+    }
+  }, false);
+  var C = Array(178).fill(void 0);
+  var I = [];
+  var Color_value = dart.privateName(ui, "Color.value");
+  var ColorSwatch__swatch = dart.privateName(colors$, "ColorSwatch._swatch");
+  var Category_color = dart.privateName(category, "Category.color");
+  var Category_title = dart.privateName(category, "Category.title");
+  var Category_id = dart.privateName(category, "Category.id");
+  var Meal_isVegetarian = dart.privateName(meal, "Meal.isVegetarian");
+  var Meal_isVegan = dart.privateName(meal, "Meal.isVegan");
+  var Meal_isLactoseFree = dart.privateName(meal, "Meal.isLactoseFree");
+  var Meal_isGlutenFree = dart.privateName(meal, "Meal.isGlutenFree");
+  var _name = dart.privateName(meal, "_name");
+  var Meal_affordability = dart.privateName(meal, "Meal.affordability");
+  var Meal_complexity = dart.privateName(meal, "Meal.complexity");
+  var Meal_duration = dart.privateName(meal, "Meal.duration");
+  var Meal_steps = dart.privateName(meal, "Meal.steps");
+  var Meal_ingredients = dart.privateName(meal, "Meal.ingredients");
+  var Meal_imageUrl = dart.privateName(meal, "Meal.imageUrl");
+  var Meal_title = dart.privateName(meal, "Meal.title");
+  var Meal_categories = dart.privateName(meal, "Meal.categories");
+  var Meal_id = dart.privateName(meal, "Meal.id");
+  dart.defineLazy(dummy_data, {
+    /*dummy_data.DUMMY_CATEGORIES*/get DUMMY_CATEGORIES() {
+      return C[0] || CT.C0;
+    },
+    /*dummy_data.DUMMY_MEALS*/get DUMMY_MEALS() {
+      return C[131] || CT.C131;
+    }
+  }, true);
+  dart.trackLibraries("packages/meals_app/dummy_data.dart", {
+    "package:meals_app/dummy_data.dart": dummy_data
+  }, {
+  }, '{"version":3,"sourceRoot":"","sources":["dummy_data.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;MAKM,2BAAgB;;;MAqDhB,sBAAW","file":"../../../../packages/meals_app/dummy_data.dart.lib.js"}');
+  // Exports:
+  return {
+    dummy_data: dummy_data
+  };
+}));
+
+//# sourceMappingURL=dummy_data.dart.lib.js.map
