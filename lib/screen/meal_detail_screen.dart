@@ -19,6 +19,7 @@ class MealDetailScreen extends StatelessWidget {
       child: Text(
         text,
         style: Theme.of(context).textTheme.headline1,
+        textAlign: TextAlign.left,
       ),
     );
   }
@@ -28,12 +29,12 @@ class MealDetailScreen extends StatelessWidget {
       decoration: BoxDecoration(
         color: Colors.white,
         border: Border.all(color: Colors.grey),
-        borderRadius: BorderRadius.circular(10),
+        borderRadius: BorderRadius.circular(5),
       ),
       margin: EdgeInsets.all(10),
       padding: EdgeInsets.all(10),
       height: 200,
-      width: 300,
+      width: 350,
       child: child,
     );
   }
@@ -62,7 +63,7 @@ class MealDetailScreen extends StatelessWidget {
               ListView.builder(
                 itemCount: selectedMeal.ingredients.length,
                 itemBuilder: (ctx, index) => Card(
-                  color: Theme.of(context).accentColor,
+                  color: Colors.blueGrey,
                   child: Padding(
                     padding: EdgeInsets.symmetric(
                       vertical: 5,
@@ -70,6 +71,7 @@ class MealDetailScreen extends StatelessWidget {
                     ),
                     child: Text(
                       selectedMeal.ingredients[index],
+                      style: TextStyle(fontSize: 20),
                     ),
                   ),
                 ),

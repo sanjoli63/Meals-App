@@ -79,7 +79,7 @@ class _MyAppState extends State<MyApp> {
       theme: ThemeData(
         primarySwatch: Colors.pink,
         accentColor: Colors.amber,
-        canvasColor: Color.fromRGBO(225, 254, 229, 1),
+        // canvasColor: Color.fromRGBO(225, 254, 229, 1),
         fontFamily: 'Raleway',
         textTheme: ThemeData.light().textTheme.copyWith(
               bodyText1: TextStyle(
@@ -89,6 +89,12 @@ class _MyAppState extends State<MyApp> {
                 color: Color.fromRGBO(20, 51, 51, 1),
               ),
               headline1: TextStyle(
+                fontSize: 25,
+                fontFamily: 'RobotCondensed',
+                fontWeight: FontWeight.bold,
+                color: Colors.pink,
+              ),
+              headline2: TextStyle(
                 fontSize: 20,
                 fontFamily: 'RobotCondensed',
                 fontWeight: FontWeight.bold,
