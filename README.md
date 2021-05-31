@@ -25,10 +25,10 @@ Meals app with category, filters, Favourites, recipes!
 <img src="https://user-images.githubusercontent.com/71957235/120066730-6d385300-c095-11eb-97f9-6c1fb8ae8be8.png" width=250>
 
 
-## Features 
+## Features
 1. Filter Your Meals Accordingly
 2. Grid View Depending on Categories
-3. Mark as Favourite 
+3. Mark as Favourite
 4. Detailed Recipe with Ingredients
 
 
